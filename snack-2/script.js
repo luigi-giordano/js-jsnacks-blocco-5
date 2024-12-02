@@ -4,5 +4,7 @@ const people = [
   { name: 'Marco', age: 67 }
 ];
 
+const names = people.map(person => person.name);
+console.log(names.join(', '));
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
